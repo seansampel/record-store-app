@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-vinyl {
+  height: 35vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-vinyl {
     animation: App-logo-spin infinite 20s linear;
   }
 }

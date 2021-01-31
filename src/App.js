@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import vinyl from './vinyl.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={vinyl} className="App-vinyl" alt="vinyl" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Search for record stores locally!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+            The Vinyl Eye
+        </p>
       </header>
     </div>
   );
