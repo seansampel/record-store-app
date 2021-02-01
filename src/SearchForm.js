@@ -1,6 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import '../styles/app.css';
+
 
 class SearchForm extends React.Component {
   constructor(props) {
@@ -23,12 +22,13 @@ class SearchForm extends React.Component {
       <div className="searchForm">
         <form>
           <input
-            className="searchCity"
-            placeholder="Search City..."
+            className="Enter postcode"
+            placeholder="Enter Postcode..."
             onChange={this.handleInputChange}
             value={this.state.searchText}
           />
       </form>
+      <button>Search</button>
       </div>
     );
   }

@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.App-vinylcollection {
+  height: 60min;
+  background-image: url("./vinylcollection.png");
+}
 
 .App-vinyl {
   height: 35vmin;
@@ -9,12 +13,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-vinyl {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3b4861;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
