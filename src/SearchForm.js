@@ -8,14 +8,14 @@ class SearchForm extends React.Component {
     this.state = {
       searchText: '',
     };
-    // this.handleInputChange = this.handleInputChange.bind(this);
-  }
+  //   this.handleInputChange = this.handleInputChange.bind(this);
+  // }
 
   // handleInputChange(event) {
   //   this.setState({
   //     searchText: event.target.value,
   //   });
-  // }
+  }
 
   render() {
     return (
@@ -30,9 +30,9 @@ class SearchForm extends React.Component {
       </form>
       <button>Search</button>
       </div>
-    );
+  );
   }
-};
+}
     
 
 
