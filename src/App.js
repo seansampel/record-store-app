@@ -2,7 +2,8 @@ import React from 'react';
 import vinyl from './vinyl.png';
 import vinylcollection from './vinylcollection.png';
 import './App.css';
-import SearchForm from './SearchForm.js';
+import SearchForm from './Components/SearchForm.js';
+import NavBar from './NavBar/NavBar.js'; 
 
 class App extends React.Component {
   constructor() {
@@ -20,7 +21,9 @@ class App extends React.Component {
   return (
     <div className="App">
       <header className="App-header">
+        <NavBar/>
         <img src={vinylcollection} className="App-vinylcollection" alt="vinyls" />
+        {/* <img src={eyes} className="eyes" alt="eyes" /> */}
         <p>
             The Digger
         </p>

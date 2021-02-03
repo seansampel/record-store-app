@@ -8,13 +8,13 @@ class SearchForm extends React.Component {
     this.state = {
       searchText: '',
     };
-  //   this.handleInputChange = this.handleInputChange.bind(this);
-  // }
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
 
-  // handleInputChange(event) {
-  //   this.setState({
-  //     searchText: event.target.value,
-  //   });
+  handleInputChange(event) {
+    this.setState({
+      searchText: event.target.value,
+    });
   }
 
   render() {
