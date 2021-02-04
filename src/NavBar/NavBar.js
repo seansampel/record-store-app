@@ -11,8 +11,6 @@ class NavBar extends Component {
             <h1 className="Contact Us"> Contact Us </h1>
       </div>
   </nav>
-      
-
     )
   }
 }

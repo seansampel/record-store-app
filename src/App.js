@@ -4,6 +4,7 @@ import vinylcollection from './vinylcollection.png';
 import './App.css';
 import SearchForm from './Components/SearchForm.js';
 import NavBar from './NavBar/NavBar.js'; 
+// import { location } from './Data/stores.json';
 
 class App extends React.Component {
   constructor() {
@@ -16,6 +17,11 @@ class App extends React.Component {
       },
     };
   };
+  handleSearchStoresClick(city) {
+    this.setState(state => ({
+        location: Response.data.location,
+    }))
+  }
     render() {
       
   return (
@@ -23,7 +29,7 @@ class App extends React.Component {
       <header className="App-header">
         <NavBar/>
         <img src={vinylcollection} className="App-vinylcollection" alt="vinyls" />
-        {/* <img src={eyes} className="eyes" alt="eyes" /> */}
+        
         <p>
             The Digger
         </p>

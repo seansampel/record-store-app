@@ -28,7 +28,11 @@ class SearchForm extends React.Component {
             value={this.state.searchText}
           />
       </form>
-      <button>Search</button>
+      <button onClick={event => {
+        event.preventDefault();
+        this.props.handleSearchStoresClick(this.state.searchText);
+      }}>
+        Search</button>
       </div>
   );
   }
