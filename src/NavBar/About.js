@@ -1,4 +1,8 @@
-import React from 'react';
+// import React from 'react';
+
+// // const LocationDetails = () => {
+// //   return <h1> About </h1>;
+// // };
 
 
 
@@ -12,6 +16,4 @@ import React from 'react';
 
 
 
-
-
-export default About;
+// export default About;
