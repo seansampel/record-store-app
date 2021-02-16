@@ -24,24 +24,26 @@ class App extends React.Component {
         location: Response.location,
     }))
   }
-  // componentDidMount() {
-  //   fetch('../Data/stores.json/location')
-  //   this.setState({
-  //     location: response.data.location,
-  //   });
-  // };
+  async componentDidMount(location) {
+    const url = "./Data/stores.mockend.json/location"
+    const response = await fetch(url);
+    const data = await response.json();
+    this.setState({
+      location: data.response.location,
+    });
+  };
 
 
 handleSearchStoresClickInput(name, city, postcode) {
   
-    fetch(`./Data/stores.json/location?name, city, postcode=${name, city, postcode}`)
+    fetch(`./Data/stores.mockend.json/location=${name, city, postcode}`)
     .then(response => {
       this.setState({
       location: response.data.location,
     });
   })
   .catch(() => {
-    alert('No results');
+    console.error('No results');
   });
 };
 

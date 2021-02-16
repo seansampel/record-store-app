@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 class SearchForm extends React.Component {
   constructor(props) {
     super(props);

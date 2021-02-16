@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { location } from './Data/stores.json';
+import { location } from './Data/stores.mockend.json';
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
