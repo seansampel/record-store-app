@@ -1,19 +1,19 @@
 import { useState, useEffect } from 'react';
+import './styles.css'
 
 const Stores = () => {
   const [store, setStore] = useState('');
 
-  // useEffect(() => {
-  //   getStore()
-  // }, []);
+  useEffect(() => {
+    getStore([])
+  }, []);
 
-const getStore = () => {
-  let url = `https://gist.githubusercontent.com/seansampel/6c70584d266c5305783e8b35ce3b1a00/raw/d7627f7270ba366a693332218b28538a7b75f7e3/store-locator`
+const getStore = (store) => {
+  let url = `https://gist.githubusercontent.com/seansampel/6c70584d266c5305783e8b35ce3b1a00/raw/244308008e02fc6152e18c29a8c1d915738f125e/stores.json`
   fetch(url)
   .then(res => res.json())
   .then(data => {
-    let store = data.store;
-    console.log(data);
+    getStore(data.results)
     
     setStore(store);
   })

@@ -1,0 +1,10 @@
+#text {
+  background: white;
+  border: none;
+  color: black;
+  padding: 5rem;
+  font-size: .10rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+}
