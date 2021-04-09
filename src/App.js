@@ -13,7 +13,6 @@ function App () {
     <div className="App">
       <header className="App-header">
         <NavBar/>
-        {/* <Stores/> */}
         <img src={vinylcollection} className="App-vinylcollection" alt="vinyls" />
         <p>
         The Digger
@@ -22,6 +21,7 @@ function App () {
         <p>
         Search for record stores locally!
         </p>
+        <Stores/>
       </header>
     </div>
     );
