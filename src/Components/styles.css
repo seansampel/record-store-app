@@ -2,9 +2,16 @@
   background: white;
   border: none;
   color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 5rem;
   font-size: .10rem;
   font-weight: bold;
   border-radius: 2px;
   outline: none;
+}
+.store-search {
+  
+  background-color: white;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #3b4861; */
 }
 .App-vinylcollection {
   height: 60min;
@@ -17,7 +18,7 @@
   }
 }
 
-.App-header {
+.center {
   background-color: #3b4861;
   min-height: 100vh;
   display: flex;
