@@ -18,7 +18,7 @@ const App = () => {
     useEffect(() => {
   const fetchStores = async () => {
     const result = await axios(
-      `https://gist.githubusercontent.com/seansampel/6c70584d266c5305783e8b35ce3b1a00/raw/8bbb93593065bd44194b439a98a0f7e1fa01cac2/stores.json`
+      `https://gist.githubusercontent.com/seansampel/6c70584d266c5305783e8b35ce3b1a00/raw/7dc8898430ed62aaad6ffeb164e0690f0b2c8097/stores.json`
     )
     console.log(result.data)
     setStores(result.data)
