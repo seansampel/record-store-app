@@ -1,17 +1,8 @@
-#text {
-  background: white;
-  border: none;
-  color: black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding: 5rem;
-  font-size: .10rem;
-  font-weight: bold;
-  border-radius: 2px;
-  outline: none;
-}
-.store-search {
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+.Store-details {
   
-  background-color: white;
-  color: black;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #3b4861;
+  color: white;
+  font-family: Hind;
 }

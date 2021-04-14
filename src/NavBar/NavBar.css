@@ -1,4 +1,7 @@
-.NavBar {
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+.NavBarItems {
   display: flex;
   flex-wrap: wrap;
+  font-family: Hind;
 }
